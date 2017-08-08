@@ -1,7 +1,7 @@
 # go
 ### The MATLAB `cd` command on steroids
 
-Save, go to, go back and retrieve folders identified by arbitrary label
+Save, go to, go back and retrieve folders identified by arbitrary label. The function helps if one works on multiple projects and needs to change folders quickly. It keeps a database of labels assigned to folders and can switch between them quickly. It can also go to folders of any m-file that is on the MATLAB search path. 
 
 `go(label,path)`
 
