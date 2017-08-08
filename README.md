@@ -3,7 +3,7 @@ The MATLAB cd command on steroids
 
 Save, go to, go back and retrieve folders identified by arbitrary label
 
-`GO(label,path)`
+`go(label,path)`
 
 Adds path and the corresponding label to the list of saved path. If the
 label already exists, it will be overwritten. The command automatically
