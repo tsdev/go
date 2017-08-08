@@ -32,7 +32,7 @@ Returns the path that corresponds to the given label.
 
 Clears the database.
 
-`Go back`
+`go back`
 
 Goes back to the previous path from where `go()` was called last time. Can
 be only used to go back one level.
