@@ -42,4 +42,4 @@ To abel to use the command without string notation and brackets, the here
 string is automaticelly replaced by the output of the pwd() function
 (current path).
 The labels are case sensitive. The list of label path pairs are saved
-into the text file $USERPATH/go.db.
+into the text file `$USERPATH/go.db`.
