@@ -11,7 +11,7 @@ exchange the user home folder path to '~' for unix based systems.
 
 `go`
 
-Prints all label - path pairs to the Command Window.
+Prints all label - path pairs to the MATLAB Command Window.
 
 `go(label)`
 
