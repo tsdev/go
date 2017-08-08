@@ -1,0 +1,24 @@
+{
+"go":
+{
+	"inputs":
+	[
+        {"mutuallyExclusiveGroup":
+            [
+                [
+                    {"name":"label",    "kind":"flag", "display":"Labels", "type":["choices=go()"], "default":"'back'"}
+                ],
+                [
+                    {"name":"filename", "kind":"required", "type":["filepath"]},
+                    {"name":"newlabel", "kind":"optional", "type":[["string"]]}
+                ],
+                [
+                    {"name":"newlabel",  "kind":"required", "type":["string"]},
+                    {"name":"ishere", "kind":"optional", "type":["choices={'here'}"]}
+
+                ]
+            ]
+        }
+	]
+}
+}
