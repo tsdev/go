@@ -10,9 +10,11 @@ label already exists, it will be overwritten. The command automatically
 exchange the user home folder path to '~' for unix based systems.
 
 `GO`
+
 Prints all label - path pairs to the Command Window.
 
 `GO(label)`
+
 Changes the directory to the path based on the following rules in order
 of precedence:
   -   if the label is a valid path the command is equivalent to the
@@ -26,13 +28,16 @@ path = GO(label)
 Returns the path that corresponds to the given label.
 
 `GO clear`
+
 Clears the database.
 
 `Go back`
+
 Goes back to the previous path from where GO() was called last time. Can
 be only used to go back one level.
 
 `GO label here`
+
 To abel to use the command without string notation and brackets, the here
 string is automaticelly replaced by the output of the pwd() function
 (current path).
