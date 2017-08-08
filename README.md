@@ -1,5 +1,5 @@
 # go
-The MATLAB cd command on steroids
+### The MATLAB `cd` command on steroids
 
 Save, go to, go back and retrieve folders identified by arbitrary label
 
